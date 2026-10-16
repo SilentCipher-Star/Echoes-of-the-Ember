@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bw47nl1exducq"]
+
+[ext_resource type="PackedScene" uid="uid://dcux7ci4avqpt" path="res://scenes/reaper.tscn" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://3xqi0htggu4k" path="res://scenes/levels/base_level.tscn" id="2_0wfyh"]
+
+[node name="main" type="Node2D" unique_id=578408005]
+
+[node name="base_level" parent="." unique_id=970922947 instance=ExtResource("2_0wfyh")]
+
+[node name="reaper" parent="." unique_id=890065963 instance=ExtResource("1_o5qli")]
+position = Vector2(221, 1783)
